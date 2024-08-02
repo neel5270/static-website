@@ -1,0 +1,5 @@
+- name: Deploy Static Website
+  hosts: local
+  tasks:
+    - name: Apply Kubernetes deployment
+      command: kubectl apply -f /home/einfochips/Practice2/kubernetes/deployment.yml
