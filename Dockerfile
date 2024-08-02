@@ -2,4 +2,4 @@
 FROM nginx:alpine
 
 # Copy static website to Nginx html directory
-COPY /home/einfochips/Practice2/src/index.html
+COPY index.html /home/einfochips/Practice2/src/index.html
